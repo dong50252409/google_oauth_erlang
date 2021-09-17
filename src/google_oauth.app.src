@@ -1,0 +1,18 @@
+{application, google_oauth, [
+    {description, "Google API OAuth 2.0 for Server to Server Applications"},
+    {vsn, "0.2.1"},
+    {modules, []},
+    {registered, []},
+    {applications, [
+        kernel,
+        stdlib,
+        crypto,
+        asn1,
+        public_key,
+        inets,
+        jsx,
+        ssl
+    ]},
+    {mod, {google_oauth_app, []}},
+    {env, []}
+]}.
