@@ -13,6 +13,5 @@
         jsx,
         ssl
     ]},
-    {mod, {google_oauth_app, []}},
     {env, []}
 ]}.
